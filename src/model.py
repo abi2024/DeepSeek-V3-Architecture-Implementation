@@ -65,22 +65,45 @@ class DeepSeekRouter(nn.Module):
         self.num_experts = config.num_experts
         self.top_k = config.top_k
         self.gate = nn.Linear(config.hidden_size, config.num_experts, bias=False)
+        
+        # Jitter for Iteration 2
+        self.jitter_noise = config.router_jitter_noise
+        
+        # Loss-less Balancing
         self.register_buffer('expert_bias', torch.zeros(config.num_experts))
-        self.bias_update_rate = 0.001 
+        
+        # Configurable Update Rate (Iteration 2 change)
+        self.bias_update_rate = config.expert_bias_update_rate 
 
     def forward(self, x, training=True):
+        # x: [B, L, D] -> Flatten to [B*L, D]
         flat_x = x.view(-1, x.shape[-1])
-        logits = self.gate(flat_x) + self.expert_bias
+        
+        # 1. Compute Raw Logits
+        logits = self.gate(flat_x)
+        
+        # 2. Add Jitter (Exploration) - Only during training
+        if training and self.jitter_noise > 0:
+            noise = torch.randn_like(logits) * self.jitter_noise
+            logits = logits + noise
+            
+        # 3. Add Bias (Load Balancing)
+        logits = logits + self.expert_bias
+        
         probs = F.softmax(logits, dim=-1)
         
+        # Top-K
         top_k_weights, top_k_indices = torch.topk(probs, self.top_k, dim=-1)
         top_k_weights = top_k_weights / top_k_weights.sum(dim=-1, keepdim=True)
         
+        # Update Bias
         if training:
             with torch.no_grad():
                 expert_mask = F.one_hot(top_k_indices, num_classes=self.num_experts).sum(dim=1)
                 load = expert_mask.sum(0) / expert_mask.sum()
                 target_load = 1.0 / self.num_experts
+                
+                # If load > target, decrease bias
                 error = load - target_load
                 self.expert_bias -= self.bias_update_rate * torch.sign(error)
         
