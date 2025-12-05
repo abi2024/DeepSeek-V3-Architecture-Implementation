@@ -1,0 +1,15 @@
+Looking in indexes: https://download.pytorch.org/whl/cu124
+Collecting torch
+  Obtaining dependency information for torch from https://download.pytorch.org/whl/cu124/torch-2.6.0%2Bcu124-cp310-cp310-win_amd64.whl.metadata
+  Using cached https://download.pytorch.org/whl/cu124/torch-2.6.0%2Bcu124-cp310-cp310-win_amd64.whl.metadata (28 kB)
+Requirement already satisfied: jinja2 in c:\users\ant-pc\era_v4\session_14+microscope\venv\lib\site-packages (from torch) (3.1.6)
+Requirement already satisfied: filelock in c:\users\ant-pc\era_v4\session_14+microscope\venv\lib\site-packages (from torch) (3.20.0)
+Collecting sympy==1.13.1
+  Using cached https://download.pytorch.org/whl/sympy-1.13.1-py3-none-any.whl (6.2 MB)
+Requirement already satisfied: networkx in c:\users\ant-pc\era_v4\session_14+microscope\venv\lib\site-packages (from torch) (3.4.2)
+Requirement already satisfied: typing-extensions>=4.10.0 in c:\users\ant-pc\era_v4\session_14+microscope\venv\lib\site-packages (from torch) (4.15.0)
+Requirement already satisfied: fsspec in c:\users\ant-pc\era_v4\session_14+microscope\venv\lib\site-packages (from torch) (2025.12.0)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in c:\users\ant-pc\era_v4\session_14+microscope\venv\lib\site-packages (from sympy==1.13.1->torch) (1.3.0)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\ant-pc\era_v4\session_14+microscope\venv\lib\site-packages (from jinja2->torch) (3.0.3)
+Downloading https://download.pytorch.org/whl/cu124/torch-2.6.0%2Bcu124-cp310-cp310-win_amd64.whl (2532.3 MB)
+   ----------------------------------       2.2/2.5 GB 16.8 MB/s eta 0:00:21

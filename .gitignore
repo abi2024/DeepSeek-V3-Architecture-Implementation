@@ -1,0 +1,19 @@
+# Python internals
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Project Artifacts (Too large for GitHub)
+checkpoints/
+
+# IDE Settings
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
