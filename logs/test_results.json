@@ -1,0 +1,887 @@
+{
+  "checkpoint": "checkpoints/best_model.pt",
+  "prompts": {
+    "narrative": [
+      {
+        "prompt": "The King said",
+        "output": "The King said.\nA noble heart, and the ground before our eyes;\nAs I have been a foul\u2019d with their best of warlike manner of it did give you think of your place where they are:\nHis daughter, she is not be her father\u2019s love me to see in your father,\nThat all things shall be gladness fitter, my brother,\nI\u2019st us in time may\nBut forsworn.\n\n [_Exeunt._]\n\n\n\n\nACT III. A hall of Arden\n\n ACT I.\n\n Enter Sebastian and life or what had some certain, two days\nSCENE I.\nContents\n\n The same. Another room in Portia and Bassanio and Bian and",
+        "stats": {
+          "tokens_generated": 150,
+          "time_seconds": 11.9859,
+          "tokens_per_second": 12.5147,
+          "prompt_tokens": 3
+        },
+        "repetition": {
+          "2-gram": {
+            "total": 100,
+            "unique": 100,
+            "repetition_rate": 0.0
+          },
+          "3-gram": {
+            "total": 99,
+            "unique": 99,
+            "repetition_rate": 0.0
+          },
+          "4-gram": {
+            "total": 98,
+            "unique": 98,
+            "repetition_rate": 0.0
+          }
+        }
+      },
+      {
+        "prompt": "In the country",
+        "output": "In the country.\nSCENE I. The same. A Room in Portia\u2019s house.\n\n Enter Sebastian and our daughter, you shall be too much of your mouth; she have to her father hath made a thousand doth give me as \u2019tis like an excellent.\nA boy?\u2014that is no, and my heart! He has been better\nWe will not so soon bring us all, sir, how he knows, and yet it should have found them on, being gone.\nIs, for ever saw\nYou are now to one seen him: but that had rather be said with a very near nobody blame his village and he cannot see this here. Let me, and then. We may live and do fear.\n",
+        "stats": {
+          "tokens_generated": 150,
+          "time_seconds": 12.2025,
+          "tokens_per_second": 12.2925,
+          "prompt_tokens": 3
+        },
+        "repetition": {
+          "2-gram": {
+            "total": 115,
+            "unique": 115,
+            "repetition_rate": 0.0
+          },
+          "3-gram": {
+            "total": 114,
+            "unique": 114,
+            "repetition_rate": 0.0
+          },
+          "4-gram": {
+            "total": 113,
+            "unique": 113,
+            "repetition_rate": 0.0
+          }
+        }
+      },
+      {
+        "prompt": "Once upon a time",
+        "output": "Once upon a time to be\nAnd I will not love, my heart with my life.\nNor from thy word \u201cIt is no more than the same year\u2019d in love:\n    And art thou gav\u2019st thy sweet-be?\nMIRANDA.\n\n [_Exit._]\n\n\n\n\nACT III\nSCENE I. A room in Olivia and yet it, one of nightly put on earth. The same\n\n Enter Simonides;\nNay them any man should see us to hear me that hath a true.\n    When birds sing, if such a bashful sight as full of death or else had she says; and out.\nShe puts himself with her eyes did fools among men for fear nothing in",
+        "stats": {
+          "tokens_generated": 150,
+          "time_seconds": 12.0926,
+          "tokens_per_second": 12.4042,
+          "prompt_tokens": 4
+        },
+        "repetition": {
+          "2-gram": {
+            "total": 105,
+            "unique": 104,
+            "repetition_rate": 0.95
+          },
+          "3-gram": {
+            "total": 104,
+            "unique": 104,
+            "repetition_rate": 0.0
+          },
+          "4-gram": {
+            "total": 103,
+            "unique": 103,
+            "repetition_rate": 0.0
+          }
+        }
+      },
+      {
+        "prompt": "The brave knight",
+        "output": "The brave knight,\n[Exit sin.\nI am a little while he is\u2019d like his own father, and dearly; but not that weep what I do you to be so still our loves him,\nYou must stay it in the bestow your honour for my house,\nBut here to me at all of thy pleasure, whom I know what I may not for you with such days before,\nAnd much. For mine,\nNot enough,\nWhich love?\nHis arguments of affection should live in \u2019tis born on you, as thou art a holy church,\nThat have done by this hour,\nIn any other kindred,\nFor if you are too weak sister makes your mouth,\nWith her be your",
+        "stats": {
+          "tokens_generated": 150,
+          "time_seconds": 11.5841,
+          "tokens_per_second": 12.9487,
+          "prompt_tokens": 3
+        },
+        "repetition": {
+          "2-gram": {
+            "total": 115,
+            "unique": 114,
+            "repetition_rate": 0.87
+          },
+          "3-gram": {
+            "total": 114,
+            "unique": 114,
+            "repetition_rate": 0.0
+          },
+          "4-gram": {
+            "total": 113,
+            "unique": 113,
+            "repetition_rate": 0.0
+          }
+        }
+      },
+      {
+        "prompt": "In a distant land",
+        "output": "In a distant land of the\nThe third of their birth to every step, and so it;\nAnd not our pleasure. I\u2019s death be done before we must be such time shall know our men hate of one another; for this great that may prevail in that makes me on my face was good my part already.\nAs might have known to do not yet did fear it! To live,\nAll day nor even now.\nWhich I,\nYou should your villainy if you, as mine enemy, like a man;\n\nThis is no more noblemannerly conceive a little body to say?\nBut since then, what will presently go seek danger or to the better\nOf all the blood oaths are too late, and",
+        "stats": {
+          "tokens_generated": 150,
+          "time_seconds": 11.7378,
+          "tokens_per_second": 12.7793,
+          "prompt_tokens": 4
+        },
+        "repetition": {
+          "2-gram": {
+            "total": 121,
+            "unique": 121,
+            "repetition_rate": 0.0
+          },
+          "3-gram": {
+            "total": 120,
+            "unique": 120,
+            "repetition_rate": 0.0
+          },
+          "4-gram": {
+            "total": 119,
+            "unique": 119,
+            "repetition_rate": 0.0
+          }
+        }
+      }
+    ],
+    "dialogue": [
+      {
+        "prompt": "ROMEO:",
+        "output": "ROMEO:\n\u201cWell, I want of the man\u2019ll do not let me to see any time. There are you go?\u201d\n\nI must be so. \u201cif there is in a little, then he\n\nit!\u201d said that\nto his head, and then\u2014that when she had never went on the table; but at him, and looked down again, for some one who seemed to her eyes were out again\nthe old age than before his feet wide-room and put it up and with such as if it was impossible to me. So like that night, and then, and thought that\nshe heard him from his handsomely. He had been so much about his own mind, in him what had grown stoop",
+        "stats": {
+          "tokens_generated": 150,
+          "time_seconds": 11.7029,
+          "tokens_per_second": 12.8174,
+          "prompt_tokens": 4
+        },
+        "repetition": {
+          "2-gram": {
+            "total": 116,
+            "unique": 116,
+            "repetition_rate": 0.0
+          },
+          "3-gram": {
+            "total": 115,
+            "unique": 115,
+            "repetition_rate": 0.0
+          },
+          "4-gram": {
+            "total": 114,
+            "unique": 114,
+            "repetition_rate": 0.0
+          }
+        }
+      },
+      {
+        "prompt": "HAMLET:\nTo be",
+        "output": "HAMLET:\nTo be. For he doth bear him that\u2019d the man, in his hand; and this day a villainy of him out oaths to us _In our breath, and we down by some means first that the men, which are not like a king your place myself of them\u2014to my lord. He is it so much as you may well cut out of our way for I have used to love her? This is no more.\n\n [_Exeunt._]\n\n\n\n\nSCENE I. A hall. A street near Dover\nACT V. A public street. A Room of Arden\n\n Enter Sebastian and Attendants with a good time, they are all the Palace. All that she should appear before whom it without",
+        "stats": {
+          "tokens_generated": 150,
+          "time_seconds": 12.112,
+          "tokens_per_second": 12.3844,
+          "prompt_tokens": 7
+        },
+        "repetition": {
+          "2-gram": {
+            "total": 115,
+            "unique": 115,
+            "repetition_rate": 0.0
+          },
+          "3-gram": {
+            "total": 114,
+            "unique": 114,
+            "repetition_rate": 0.0
+          },
+          "4-gram": {
+            "total": 113,
+            "unique": 113,
+            "repetition_rate": 0.0
+          }
+        }
+      },
+      {
+        "prompt": "KING RICHARD:\nNow is",
+        "output": "KING RICHARD:\nNow is too late despised whither.\nThe best;\nFor he hath not ourself, and to us be so much I have in this business.\n\n [_Exeunt._]\n\n\n\n\nSCENE I. A street near Alexandria. Another Part of the Castle. The same\n\n Enter a noble lordship\u2019s palace.\nSCENOBARBUS. Our preceptibly,\u2014my music at one that was born a Joveful story.\nMESSALEXAS. When I saw \u2019twenty-chance of men than my lord of his time for some part of our most heavy day out.\n\n Enter Caesar with fear of being suffered under\nThat, sir, which I have been, from",
+        "stats": {
+          "tokens_generated": 150,
+          "time_seconds": 12.517,
+          "tokens_per_second": 11.9837,
+          "prompt_tokens": 9
+        },
+        "repetition": {
+          "2-gram": {
+            "total": 93,
+            "unique": 91,
+            "repetition_rate": 2.15
+          },
+          "3-gram": {
+            "total": 92,
+            "unique": 92,
+            "repetition_rate": 0.0
+          },
+          "4-gram": {
+            "total": 91,
+            "unique": 91,
+            "repetition_rate": 0.0
+          }
+        }
+      },
+      {
+        "prompt": "JULIET:\nO Romeo",
+        "output": "JULIET:\nO Romeo, but I am not.\nThe heavy hour\u2019d with sorrow indeed.\nCAPULETTA.\nLADY CAPULET.\nIt is too.\u2014Farewell! O wretch that?\nWhy didst thou wilt needs die for thy husband to make me my master, sweet-like?\nBEROWNE. What says the case a lovethinks you will love; forsworn.\nAs rich in this?\nA kind of heaven have been so many tales, or what they be contented his dogged him.\nAnd yet I do love, and by wit to thee.\nFor every word.\nROSALINE.\nYou are more than mine honour.\nBut she may",
+        "stats": {
+          "tokens_generated": 150,
+          "time_seconds": 12.0217,
+          "tokens_per_second": 12.4774,
+          "prompt_tokens": 8
+        },
+        "repetition": {
+          "2-gram": {
+            "total": 91,
+            "unique": 91,
+            "repetition_rate": 0.0
+          },
+          "3-gram": {
+            "total": 90,
+            "unique": 90,
+            "repetition_rate": 0.0
+          },
+          "4-gram": {
+            "total": 89,
+            "unique": 89,
+            "repetition_rate": 0.0
+          }
+        }
+      },
+      {
+        "prompt": "MACBETH:\nIs this",
+        "output": "MACBETH:\nIs this is not, and it be\u2019d me to think of my lord.\nMACBETH. Mine honesty?\u2014I know me with a word more than my lord.\nWhat\u2019s, when I am glad to do you well; your son John Mortimer in your brother, as my heart.\nTill that, or had been born under such things true man,\nThe which he did his being put into the Englishman hath sentinel after him for, no place. For mine honour, so far from our fate must stay at midnight.\nWhich in your casement, are too, and in thine eyes for fear, my lord. But, so longings.\nAnd thus upbraidias. Lethe",
+        "stats": {
+          "tokens_generated": 150,
+          "time_seconds": 11.9866,
+          "tokens_per_second": 12.514,
+          "prompt_tokens": 7
+        },
+        "repetition": {
+          "2-gram": {
+            "total": 105,
+            "unique": 102,
+            "repetition_rate": 2.86
+          },
+          "3-gram": {
+            "total": 104,
+            "unique": 104,
+            "repetition_rate": 0.0
+          },
+          "4-gram": {
+            "total": 103,
+            "unique": 103,
+            "repetition_rate": 0.0
+          }
+        }
+      }
+    ],
+    "descriptive": [
+      {
+        "prompt": "The castle stood",
+        "output": "The castle stood on. I was to bed\nwas brought me, so much as ever, for a great iron ring away from the wind and my only took it with me out of his feet in the window, and then I heard a very\nit had been\nand there, and that night\u2019sawake I got back again; that I lay quiet moon began to be done by the top of being past. But I found him through their bare trees before going in any such a little while they looked at one after day; and I should meet some one else outside,\nI could not yet so many hours passed over. When he would come down to have made\noverwhelmingled in it all came round, \u201cBut how like one in",
+        "stats": {
+          "tokens_generated": 150,
+          "time_seconds": 12.026,
+          "tokens_per_second": 12.473,
+          "prompt_tokens": 3
+        },
+        "repetition": {
+          "2-gram": {
+            "total": 128,
+            "unique": 128,
+            "repetition_rate": 0.0
+          },
+          "3-gram": {
+            "total": 127,
+            "unique": 127,
+            "repetition_rate": 0.0
+          },
+          "4-gram": {
+            "total": 126,
+            "unique": 126,
+            "repetition_rate": 0.0
+          }
+        }
+      },
+      {
+        "prompt": "A beautiful morning",
+        "output": "A beautiful morning, and\nWe\u2019s our nature. O my lord!\u2014I will not believe it be some to do you are welcome, I think so far as a great cause, he have been so much of him. This is he knows what in the most natural gifts? Beeches by me. You must be proud to you; no more than a man, like an honour would keep his\nitself. He has deserved your face again. The one or any\nYou know for me out of all that I am glad to be bolder-night before they should love. That is too late now\nmy heart and such a little while to prevent her eyes, but she was a case. What do not, and if I shall see",
+        "stats": {
+          "tokens_generated": 150,
+          "time_seconds": 11.7978,
+          "tokens_per_second": 12.7142,
+          "prompt_tokens": 3
+        },
+        "repetition": {
+          "2-gram": {
+            "total": 123,
+            "unique": 123,
+            "repetition_rate": 0.0
+          },
+          "3-gram": {
+            "total": 122,
+            "unique": 122,
+            "repetition_rate": 0.0
+          },
+          "4-gram": {
+            "total": 121,
+            "unique": 121,
+            "repetition_rate": 0.0
+          }
+        }
+      },
+      {
+        "prompt": "The dark forest",
+        "output": "The dark forest, a great\nAnd in his head.\nA man that I fear my lord;\nYou have your honour may live to do desire you please me not like to make some other is of so little while with a king\u2019s love-like, or being ever from me, will,\nAs much for this time shall be true love and, nor see the matter how,\nI swear I am a thing I can I give mine own grace.\nWhen day, but one day,\nThan all men; and uncurrent all things answer: O,\u2014that,\nSome certain frown. Now let it out of my daughter: I can lay at heart!\u2014I can no further. You are too far,\u2014",
+        "stats": {
+          "tokens_generated": 150,
+          "time_seconds": 11.4037,
+          "tokens_per_second": 13.1536,
+          "prompt_tokens": 3
+        },
+        "repetition": {
+          "2-gram": {
+            "total": 112,
+            "unique": 111,
+            "repetition_rate": 0.89
+          },
+          "3-gram": {
+            "total": 111,
+            "unique": 111,
+            "repetition_rate": 0.0
+          },
+          "4-gram": {
+            "total": 110,
+            "unique": 110,
+            "repetition_rate": 0.0
+          }
+        }
+      },
+      {
+        "prompt": "Upon the hill",
+        "output": "Upon the hill.\n[Exit, and his will I am a man I have heard him for me speak no one of this matter that you so much to be happy in your\nwilli; and my life\none is not love you must leave to be otherwise, as full of the most wise men\u2019s; nor refuse anything in sport for \u2019tis going about it in thy face at all. And yet he would do beseech you shall know his eyes. The very well: thou dost not be better in thine own death. So true than the gods forbid to be more.\n\n [_To seek out._] O Jove, when they say \u201che hath but this, or there?\u2014I thought on thee gone!",
+        "stats": {
+          "tokens_generated": 150,
+          "time_seconds": 11.7464,
+          "tokens_per_second": 12.7699,
+          "prompt_tokens": 3
+        },
+        "repetition": {
+          "2-gram": {
+            "total": 117,
+            "unique": 115,
+            "repetition_rate": 1.71
+          },
+          "3-gram": {
+            "total": 116,
+            "unique": 116,
+            "repetition_rate": 0.0
+          },
+          "4-gram": {
+            "total": 115,
+            "unique": 115,
+            "repetition_rate": 0.0
+          }
+        }
+      },
+      {
+        "prompt": "The ancient temple",
+        "output": "The ancient temple his\nAnd our souls to hear it.\nGo thou shalt find out of thy power, and I mayst prove, as the King shall be a king.\n\n [_Exeunt._]\n\n\n\n\nACT III. The Palace\n\n ACT V\nSCENE I.\n\n Enter Gaunts camp near Middleham\u2019d in England. He knows what with a shameful death. And so bad neighbour air breathes such doth appear before them,\nIs this day is no English eyes doves me that my head; at one doorways it but a word. Good morrow,\nThat sufferance, and the men desire. A Street.\n\n Enter Chorus borne me leave. What, for fear they are not",
+        "stats": {
+          "tokens_generated": 150,
+          "time_seconds": 11.9251,
+          "tokens_per_second": 12.5785,
+          "prompt_tokens": 3
+        },
+        "repetition": {
+          "2-gram": {
+            "total": 102,
+            "unique": 102,
+            "repetition_rate": 0.0
+          },
+          "3-gram": {
+            "total": 101,
+            "unique": 101,
+            "repetition_rate": 0.0
+          },
+          "4-gram": {
+            "total": 100,
+            "unique": 100,
+            "repetition_rate": 0.0
+          }
+        }
+      }
+    ],
+    "action": [
+      {
+        "prompt": "He drew his sword",
+        "output": "He drew his sword.\nFALSTAFF. The count was not in the King of men, and so.\nThe village of their time to my father had a thousand men;\nand after them together, his son to my life as will I cannot be our friends with me your Majesty.\n\nFor for thy king\u2019s heart\nAnd many a man? What hath left thee.\n[_Exeunt._]\n\n\n\n\nACT III.\n\n ACT II. Another Part of Gloucester, Duke Senior, King John Stanley in love, his son, Earl of York, but two days before the Field\nSCENE I. A Forest near Sandal Castle. An Apartment. London. The Palace\n\n ACT V. Alexandria.\n\n",
+        "stats": {
+          "tokens_generated": 150,
+          "time_seconds": 12.5735,
+          "tokens_per_second": 11.9299,
+          "prompt_tokens": 4
+        },
+        "repetition": {
+          "2-gram": {
+            "total": 102,
+            "unique": 101,
+            "repetition_rate": 0.98
+          },
+          "3-gram": {
+            "total": 101,
+            "unique": 101,
+            "repetition_rate": 0.0
+          },
+          "4-gram": {
+            "total": 100,
+            "unique": 100,
+            "repetition_rate": 0.0
+          }
+        }
+      },
+      {
+        "prompt": "She ran through",
+        "output": "She ran through the\nand then it was only saw him. When he had thought, as though he closed his\n\u201cYou have any sort of me,\u201d said I took to know who has a man. \u201cI do you will not see what for you are bound up?\u201d\n\n\nyou\u2019t be glad to ask.\u201d He wished to-night; and went to put in your head bent her eyes had never left them again:--williilliam Mina\u2019s eyes; she had been very carefully under such a little, but there was so good women still. She stopped, if I could hear\nher eyes.\n\n       *      *       *       *       *       *       *       *       *       *\nIt may",
+        "stats": {
+          "tokens_generated": 150,
+          "time_seconds": 11.4405,
+          "tokens_per_second": 13.1113,
+          "prompt_tokens": 3
+        },
+        "repetition": {
+          "2-gram": {
+            "total": 107,
+            "unique": 99,
+            "repetition_rate": 7.48
+          },
+          "3-gram": {
+            "total": 106,
+            "unique": 99,
+            "repetition_rate": 6.6
+          },
+          "4-gram": {
+            "total": 105,
+            "unique": 99,
+            "repetition_rate": 5.71
+          }
+        }
+      },
+      {
+        "prompt": "They fought bravely",
+        "output": "They fought bravely to me, I am\nI\u2019ll have it. Good Master Feech you shall not? For your mind of them not here, and in love a dogged from the best; or two days, be so well as he will go see thee forso oft a great patience, and so long; if thou must use my master, sir, or fourscore dost thou art, let us do, or\nas a kind oaths are better\nall weep through thy name is some man, he hath made him at first time hadst before I must think he cannot keep that ever call them; nor none but\nwaking or any other of all things, to our old age. And yet a very true subject to",
+        "stats": {
+          "tokens_generated": 150,
+          "time_seconds": 12.0325,
+          "tokens_per_second": 12.4662,
+          "prompt_tokens": 3
+        },
+        "repetition": {
+          "2-gram": {
+            "total": 120,
+            "unique": 120,
+            "repetition_rate": 0.0
+          },
+          "3-gram": {
+            "total": 119,
+            "unique": 119,
+            "repetition_rate": 0.0
+          },
+          "4-gram": {
+            "total": 118,
+            "unique": 118,
+            "repetition_rate": 0.0
+          }
+        }
+      },
+      {
+        "prompt": "The battle began",
+        "output": "The battle began;\nTis not the King John, and doth with me.\nBy day from me to be well I shall be my lord,\nIf that\u2019s death\u2019st thou art.\nAnd if you must be true heart! O, I leave thee in thy soul dost thou wilt thou shalt find a traitor hast nor strength of his death,\nBut even as this life or what he is too rashness everywhere. I am dead.\n\n [_Exeunt._]\n\n\n\n\nACT II. A street near Sandal. Another Partly. The same\n\n Enter Duke and Servant. What hoary put up your tard,\nSCENE I\nSCENE I may one had rather have been",
+        "stats": {
+          "tokens_generated": 150,
+          "time_seconds": 11.8762,
+          "tokens_per_second": 12.6303,
+          "prompt_tokens": 3
+        },
+        "repetition": {
+          "2-gram": {
+            "total": 102,
+            "unique": 101,
+            "repetition_rate": 0.98
+          },
+          "3-gram": {
+            "total": 101,
+            "unique": 101,
+            "repetition_rate": 0.0
+          },
+          "4-gram": {
+            "total": 100,
+            "unique": 100,
+            "repetition_rate": 0.0
+          }
+        }
+      },
+      {
+        "prompt": "With a mighty blow",
+        "output": "With a mighty blow his sight,\nAnd then the world is in such a boy for me.\nA very night; you know not your eyes to my lady\u2019d and that thou may be thy love to this matter to be, I will believe\nFor it offend,\nBut he hath so. Her love,\nTo bear no more true. For us all things answer him.\n\n [_Exeunt._]\n\n\n\n\nACT III\nSCENE I. A street. A Room in Portia with a time of Arden\n\n ACT II.\n\n\n Enter Sebastian and BAR PETER. He had been her face at first-worned in view the Castle\nThe Duke and heavy to some pronounc\u2019s House.\n",
+        "stats": {
+          "tokens_generated": 150,
+          "time_seconds": 12.1377,
+          "tokens_per_second": 12.3581,
+          "prompt_tokens": 4
+        },
+        "repetition": {
+          "2-gram": {
+            "total": 104,
+            "unique": 103,
+            "repetition_rate": 0.96
+          },
+          "3-gram": {
+            "total": 103,
+            "unique": 103,
+            "repetition_rate": 0.0
+          },
+          "4-gram": {
+            "total": 102,
+            "unique": 102,
+            "repetition_rate": 0.0
+          }
+        }
+      }
+    ]
+  },
+  "temperature": [
+    {
+      "temperature": 0.3,
+      "output": "The King said,\nAnd in his head.\n[_To be so.\nHOTSPUR.\nI am not your lordship to the Duke of a king?\nTill you have it please your Grace\u2019s death.\nAnd I will; for this hour since he hath sent out of Gloucester and that is no more than thy son shall be patient as thou art dearer than thy father Henry,\nFor by my lord,\nThat cannot brook delay.\nThis oath may",
+      "stats": {
+        "tokens_generated": 100,
+        "time_seconds": 7.5251,
+        "tokens_per_second": 13.2888,
+        "prompt_tokens": 3
+      },
+      "repetition": {
+        "2-gram": {
+          "total": 72,
+          "unique": 71,
+          "repetition_rate": 1.39
+        },
+        "3-gram": {
+          "total": 71,
+          "unique": 71,
+          "repetition_rate": 0.0
+        },
+        "4-gram": {
+          "total": 70,
+          "unique": 70,
+          "repetition_rate": 0.0
+        }
+      }
+    },
+    {
+      "temperature": 0.5,
+      "output": "The King said,\nAnd in our great and to us.\nIs\u2019s not your mind, but the Duke of York.\nFor Edward be king;\nRICHARD.\nEDWARD.\nWhat sayst thou hast thy crown for a man?\nTo Richmond should you have it please your Grace I will revenge enough to do me as I see them then I am resolved, so woes to London with my son,\nI cannot brook delay.\nQUEEN ELIZAB",
+      "stats": {
+        "tokens_generated": 100,
+        "time_seconds": 7.7835,
+        "tokens_per_second": 12.8477,
+        "prompt_tokens": 3
+      },
+      "repetition": {
+        "2-gram": {
+          "total": 70,
+          "unique": 70,
+          "repetition_rate": 0.0
+        },
+        "3-gram": {
+          "total": 69,
+          "unique": 69,
+          "repetition_rate": 0.0
+        },
+        "4-gram": {
+          "total": 68,
+          "unique": 68,
+          "repetition_rate": 0.0
+        }
+      }
+    },
+    {
+      "temperature": 0.7,
+      "output": "The King said, and\nHis head.\nWherein men of England\u2019s peace hath in our oaths to keep their souls for our age. But I must not so doth begin\nIn every hour;\nFor he is no further go fetch dew it be thus: though they would your place, if you.\nBut, I have some love my thoughts,\nAnd leave to any true love thee, let me, and virtue\u2019d myself as mine ear.\n\n [_Exit._]",
+      "stats": {
+        "tokens_generated": 100,
+        "time_seconds": 7.8094,
+        "tokens_per_second": 12.8051,
+        "prompt_tokens": 3
+      },
+      "repetition": {
+        "2-gram": {
+          "total": 72,
+          "unique": 72,
+          "repetition_rate": 0.0
+        },
+        "3-gram": {
+          "total": 71,
+          "unique": 71,
+          "repetition_rate": 0.0
+        },
+        "4-gram": {
+          "total": 70,
+          "unique": 70,
+          "repetition_rate": 0.0
+        }
+      }
+    },
+    {
+      "temperature": 1.0,
+      "output": "The King said \u201cm car\n    And will not only too de Newgate? Do not be M monarch,\u2019\u201d\nWith some more.\n\n Nat\u00e1sha knew how to leave our oath, as they had known or any longer in love at the true\nand Nat\u00e1rya Dm\u00edtrievna and for them before she was a case it seemed to be like S\u00f3nya with her to see no importance of one\u2019s foot coats there. She again but to listen and took out by\n",
+      "stats": {
+        "tokens_generated": 100,
+        "time_seconds": 7.9056,
+        "tokens_per_second": 12.6493,
+        "prompt_tokens": 3
+      },
+      "repetition": {
+        "2-gram": {
+          "total": 75,
+          "unique": 75,
+          "repetition_rate": 0.0
+        },
+        "3-gram": {
+          "total": 74,
+          "unique": 74,
+          "repetition_rate": 0.0
+        },
+        "4-gram": {
+          "total": 73,
+          "unique": 73,
+          "repetition_rate": 0.0
+        }
+      }
+    },
+    {
+      "temperature": 1.2,
+      "output": "The King said it had come\nIn his wife. \u201cno, when the two o\u2019s a good will talk!\u201d they used for three, in the little chair up at first Wemmick and made them up, if anything else to have done him on his hand, like him of the time to shake\nover no one after he was so out and then the man with my own lodging as this twig and Joe, I think it very strange night from the kitchen fire-time; so much",
+      "stats": {
+        "tokens_generated": 100,
+        "time_seconds": 8.0943,
+        "tokens_per_second": 12.3543,
+        "prompt_tokens": 3
+      },
+      "repetition": {
+        "2-gram": {
+          "total": 83,
+          "unique": 83,
+          "repetition_rate": 0.0
+        },
+        "3-gram": {
+          "total": 82,
+          "unique": 82,
+          "repetition_rate": 0.0
+        },
+        "4-gram": {
+          "total": 81,
+          "unique": 81,
+          "repetition_rate": 0.0
+        }
+      }
+    }
+  ],
+  "sampling": [
+    {
+      "config": {
+        "name": "Greedy-ish",
+        "temperature": 0.3,
+        "top_k": 10,
+        "top_p": 1.0
+      },
+      "output": "Once upon a time,\nAnd I will not love to be.\n\n [_Exeunt._]\n\n\n\n\nACT III. A hall in the Castle.\n\n Enter Pandarus\u2019s Garden.\nSCENE V.\nANTIPHOLUS OF SYRACUSE.\nThe devil and a man may be too late; she was a rope of waterishly in a thousand marks of doth he had been there any way out oaths and S\u00f3nya with me,\nI am",
+      "stats": {
+        "tokens_generated": 100,
+        "time_seconds": 8.0537,
+        "tokens_per_second": 12.4166,
+        "prompt_tokens": 4
+      },
+      "repetition": {
+        "2-gram": {
+          "total": 61,
+          "unique": 61,
+          "repetition_rate": 0.0
+        },
+        "3-gram": {
+          "total": 60,
+          "unique": 60,
+          "repetition_rate": 0.0
+        },
+        "4-gram": {
+          "total": 59,
+          "unique": 59,
+          "repetition_rate": 0.0
+        }
+      }
+    },
+    {
+      "config": {
+        "name": "Balanced",
+        "temperature": 0.7,
+        "top_k": 50,
+        "top_p": 0.95
+      },
+      "output": "Once upon a time\nFor his life,\nAnd then to thy love\u2019s eyes.\nThe boy for woes;\nTill be woman dies in thine age, and all oaths\u2019st, though I have power that thou wilt kill thee what they so my tongue-t born of a sithy company.\nBut if you do your true-like.\nTo help me!\n\n [_Exit._]\nSCENE III. A street? The same\n\n Enter Chorus",
+      "stats": {
+        "tokens_generated": 100,
+        "time_seconds": 7.6324,
+        "tokens_per_second": 13.102,
+        "prompt_tokens": 4
+      },
+      "repetition": {
+        "2-gram": {
+          "total": 63,
+          "unique": 63,
+          "repetition_rate": 0.0
+        },
+        "3-gram": {
+          "total": 62,
+          "unique": 62,
+          "repetition_rate": 0.0
+        },
+        "4-gram": {
+          "total": 61,
+          "unique": 61,
+          "repetition_rate": 0.0
+        }
+      }
+    },
+    {
+      "config": {
+        "name": "Creative",
+        "temperature": 1.0,
+        "top_k": 100,
+        "top_p": 0.9
+      },
+      "output": "Once upon a time after him\nDROMIO OF SYRACUSE.\nDROMIO OF SYRACUSE.\n    _ANTIPHOLUS OF SYRACUSE. I mean you are no one?\n    And welcome to j ministers of his sake, will not S\u00f3nya and \u2019twixt eight hundred dine\u2019s in a taintness and the village elder sister themselves.\nMakes me there would faintycharmianily.\u2014Didst judgement for it be chosen",
+      "stats": {
+        "tokens_generated": 100,
+        "time_seconds": 7.6189,
+        "tokens_per_second": 13.1252,
+        "prompt_tokens": 4
+      },
+      "repetition": {
+        "2-gram": {
+          "total": 55,
+          "unique": 52,
+          "repetition_rate": 5.45
+        },
+        "3-gram": {
+          "total": 54,
+          "unique": 53,
+          "repetition_rate": 1.85
+        },
+        "4-gram": {
+          "total": 53,
+          "unique": 53,
+          "repetition_rate": 0.0
+        }
+      }
+    },
+    {
+      "config": {
+        "name": "Nucleus Only",
+        "temperature": 0.8,
+        "top_k": 0,
+        "top_p": 0.92
+      },
+      "output": "Once upon a time I will leave to every word.\nth, and after his small strain; here at all;\nFALSTAFF.\nWhat is it? Hark you speak with me see the hearing it well cut my friend! What\u2019s thy sword hacked like thee well. He hath ta\u2019ll be great call me no long ago. A plague of man may keep not have a\nNay, thou stol\u2019st down to tell me? Behold thy name in this morning",
+      "stats": {
+        "tokens_generated": 100,
+        "time_seconds": 7.8831,
+        "tokens_per_second": 12.6854,
+        "prompt_tokens": 4
+      },
+      "repetition": {
+        "2-gram": {
+          "total": 74,
+          "unique": 74,
+          "repetition_rate": 0.0
+        },
+        "3-gram": {
+          "total": 73,
+          "unique": 73,
+          "repetition_rate": 0.0
+        },
+        "4-gram": {
+          "total": 72,
+          "unique": 72,
+          "repetition_rate": 0.0
+        }
+      }
+    },
+    {
+      "config": {
+        "name": "High Temp",
+        "temperature": 1.2,
+        "top_k": 50,
+        "top_p": 0.95
+      },
+      "output": "Once upon a time he\nThat we heard\u2019s; of our fortunes forth a thing:\u2014at in the house, but there, some.\n\n      6\n  For from flank of his last leave to that after them with such a certain spleen. 3.             809294252,\n\u201cO!\n\n  \u201cPassion on to write outst your\n  So be called top-man,\u201d said \u201cshe and are scarce scarce you mean\u201d (as beside the whale-east",
+      "stats": {
+        "tokens_generated": 100,
+        "time_seconds": 7.6383,
+        "tokens_per_second": 13.0919,
+        "prompt_tokens": 4
+      },
+      "repetition": {
+        "2-gram": {
+          "total": 61,
+          "unique": 61,
+          "repetition_rate": 0.0
+        },
+        "3-gram": {
+          "total": 60,
+          "unique": 60,
+          "repetition_rate": 0.0
+        },
+        "4-gram": {
+          "total": 59,
+          "unique": 59,
+          "repetition_rate": 0.0
+        }
+      }
+    }
+  ],
+  "perplexity": {
+    "results": [
+      {
+        "text": "The king spoke to his loyal subjects about the coming war.",
+        "perplexity": 792.7081
+      },
+      {
+        "text": "To be or not to be, that is the question.",
+        "perplexity": 71.3143
+      },
+      {
+        "text": "In the beginning, there was nothing but darkness and silence.",
+        "perplexity": 182.0537
+      },
+      {
+        "text": "The quick brown fox jumps over the lazy dog.",
+        "perplexity": 7115.728
+      },
+      {
+        "text": "Once upon a time in a kingdom far away lived a princess.",
+        "perplexity": 636.3617
+      }
+    ],
+    "average": 1759.6332
+  },
+  "consistency": {
+    "outputs": [
+      "The King said,\nThat, by him there. And yet for the rest. That\u2019s the first day or his heartily he go out of men had been in all things they could see what\nBy us if it had to have any rate some ten thousand my friends whom I had taken a great iron ring to\nfor nothing to be no man and the house was so much as my own words;",
+      "The King said a\nAway, the rest to us. And yet we have our wooer, I must with my life one that you speak no more not, and so much of your honour in such another.\nYou are dearer than ever. He shall die. For myself;\nBut stay,\n\u2019ll go see him that I may be too doth tell thee well.\n[",
+      "The King said, he had been a man, and his\nBut when I should betray me. He answered; but for something that he could not know what I have to speak out of the worst one of our boy\u2019s face, and then he made him,\u2014and it or such an evening.\n\n       *       *       *       *\nseilles. The attendant was in order. Not only",
+      "The King said to our own,\nTo crossly heart.\n\n [_Exeunt._]\n\n\n\n\nACT III\n\n Enter Duke of a love with you have not your daughter to hear me; her father. What\u2019s mind.\n[Exit Servant.\nSCENE I have it may be so dear hour since in the\nFor which is very oft \u2019tis thought of my best and",
+      "The King said, to that may be no evening\nIs it not one another of the rest of what they are true to us we know that our most wise. I fear. If you. I have been much trouble. To do not so much. We shall find a great deal in your true. And believe such a little of my lord, but it will tell thee; and yet a kindred with me"
+    ],
+    "diversity_score": 1.0
+  }
+}

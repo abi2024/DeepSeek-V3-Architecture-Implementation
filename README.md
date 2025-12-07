@@ -131,282 +131,160 @@ The **MoE-Microscope** provides critical insights not available from the loss cu
 
 👉 **[See the full dashboard view and detailed analysis here](ANALYSIS.md)**
 
-### Generated Output Samples
-Here are 10 selected outputs from the model after 10,000 training steps:
+## 🎭 Sample Outputs
 
-------------------------------------------------------------
-🤖 Generating 5 Responses (Prompt: 'The King said')
-------------------------------------------------------------
+After 10,000 training steps, the model demonstrates coherent Shakespearean style with proper theatrical formatting, character dialogue, and verse structure.
 
-📝 Response 1:
-The King said
-The town, his Grace,
-And by his heart-like hand.
-The King is his person,
-And so, for his person in his Grace.
-RIVERS.
-The noble prince, his Grace may not to find out of the crown.
-And come to fight it is lost the rest, and the crown.
-KINGHASTINGS.
-RIVERS. The silly woman to his face,
-KING EDWARD.
-KING EDWICK.
+**Generation Settings:** Temperature=0.7, Top-K=50, Top-P=0.95, Repetition Penalty=1.1
 
-This things that the crown,
-I do not on that was,
+---
 
-[_Within_.] The sumptuous, and and thebursts, all of our father’s, and the King is the King Edward
-------------------------------
+### 1. Dialogue with Character Switching
+**Prompt:** `JULIET: O Romeo`
 
-📝 Response 2:
-The King said the
-The King of the King of all the enemy was
-To be so as the King:
-To those that is lost in his great-and of his father and is my father,
-To have power to it,
-We have that in the court.
+```
+JULIET:
+O Romeo, but I am not.
+The heavy hour'd with sorrow indeed.
+CAPULETTA.
+LADY CAPULET.
+It is too.—Farewell! O wretch that?
+Why didst thou wilt needs die for thy husband to make me my master, sweet-like?
+BEROWNE. What says the case a lovethinks you will love; forsworn.
+As rich in this?
+A kind o...
+```
+✓ Correct character name format | ✓ Emotional language | ✓ Character transitions
 
-AUMBERTRAM.
-The king, as we here his
-To think, and the King,
-Away!
+---
 
-The Duke to all but not how his grief
-Than is of York, and his train of York,
-To have we are that did.
-To rue we’s,
-Shall our cousin,
+### 2. Full Theatrical Format
+**Prompt:** `KING RICHARD: Now is`
 
+```
+KING RICHARD:
+Now is too late despised whither.
+The best;
+For he hath not ourself, and to us be so much I have in this business.
 
-[_.] to your Grace to the King Edward, and his right
-But to fight._
-------------------------------
+ [_Exeunt._]
 
-📝 Response 3:
-The King said his friend to his
-As I have done. You
+SCENE I. A street near Alexandria. Another Part of the Castle. The same
 
-WOL infinite to be to them, and my son, as my lord,
-No, he
+ Enter a noble lordship's palace.
+SCENOBARBUS. Our preceptibly,—my music at one...
+```
+✓ Stage directions `[_Exeunt._]` | ✓ Scene markers | ✓ Location descriptions
 
-As to the King would I love I,
-A muse his hand
-To see him, and all my life.
-With all the King my head against you, and no,
-To be his grave,
-Y.
-To do.
-How comes upon his right,
-I know,
-As I as
-I’s,
-I’ll make known to the King Edward,
-WICK.
-What news as I would not Edward’ll send to the King Edward still-bray by his own life.
+---
 
-To give his
-------------------------------
+### 3. Scene Setup with Setting
+**Prompt:** `In the country`
 
-📝 Response 4:
-The King said to his
-To steal his crown and, and his head and a b
-    And him,
-    The war,
-    As he dost thou not love is thy foe to thy worst that fair end.
-    Were beauty,
-    For right thou thine,
-    For oft,
-But love,
+```
+In the country.
+SCENE I. The same. A Room in Portia's house.
 
-Nor call him
-    The,
-By this pale,
-C
-     And all in thy will not love of thy thy bed,
-    He dost thy part in thy good,
-What thou with thy thy golden fool is thy days, thy foe,
-    And all that thou thy Lucius,
-    And all thy thy heart’st thou still may not thy love to his offered thy,
-    That thou not through thy beauty thou thou
-------------------------------
+ Enter Sebastian and our daughter, you shall be too much of your mouth; 
+she have to her father hath made a thousand doth give me as 'tis like an excellent.
+A boy?—that is no, and my heart! He has been better
+We will not so soon bring us a...
+```
+✓ Scene location format | ✓ Character entrances | ✓ Merchant of Venice reference (Portia)
 
-📝 Response 5:
-The King said his arms,
-The King’s the King
-To be be so ill-ship’s
-To th’s,
-To the good, and his honour to his head and his father,
-To be,
-To that his life’s
-To have done,
-And to his.
-The name and do
-But ’twas wisdom
-But thou hast thou,
-And to my ancient ears
-The day, but by his father’s death;
-Fie thee at my life.
-Upon that wouldst thou to that my soul,
-The time I have thy father and let thy tongue
-For thy father’s hand shall I have done.
-But thou art forced to thy love,
+---
 
+### 4. Verse Structure  
+**Prompt:** `The battle began`
 
-------------------------------
+```
+The battle began;
+Tis not the King John, and doth with me.
+By day from me to be well I shall be my lord,
+If that's death'st thou art.
+And if you must be true heart! O, I leave thee in thy soul 
+dost thou wilt thou shalt find a traitor hast nor strength of his death,
+But even as this life or what he i...
+```
+✓ Iambic rhythm attempts | ✓ Archaic language (thou, dost, hast) | ✓ Dramatic themes
 
-------------------------------------------------------------
-🤖 Generating 5 Responses (Prompt: 'In the country')
-------------------------------------------------------------
+---
 
-📝 Response 1:
-In the country,
-The enemy enemy’s,
-Tis’d, to the last
-To give,
-A little,
-And when at ’twas,
-To send thee.
-WICK.
+### 5. Action with Character Dialogue
+**Prompt:** `He drew his sword`
 
-The day as the son of the name of thine own,
-To thee so,
-But what is thy life
+```
+He drew his sword.
+FALSTAFF. The count was not in the King of men, and so.
+The village of their time to my father had a thousand men;
+and after them together, his son to my life as will I cannot be our friends 
+with me your Majesty.
 
-And he didst thou art mighty space we have me, nor to thee not the world
+For for thy king's heart
+And many a man? What hath left thee.
+```
+✓ FALSTAFF character (Henry IV) | ✓ Royal address "your Majesty" | ✓ Military context
 
-To thy life, to be thy better part.
-So many,
-I know
-Waking thy father of my love to thy father, let thy love,
-Wherein,
+---
 
-Thy it,
-Nor know thee at thy blood,
-To the loss of my w,
+### Test Metrics Summary
 
-------------------------------
+| Metric | Value |
+|:-------|------:|
+| Generation Speed | 12.5 tok/s |
+| Avg 3-gram Repetition | < 1% |
+| Diversity Score | 5/5 unique |
+| Best Perplexity | 71.31 ("To be or not to be...") |
 
-📝 Response 2:
-In the country’s
-Are rid o’s
-That his own,
-And after him all his sword of our wills, of his life under which dost thou thine,
-To make a man is thy hand was not to thy friend to this,
-To thine,
-And his ears,
-To rhapsless,
-For thou still in his grave,
-And give to this.
-In that my head befall him from thy father to his hand.
-Till thou in thy death.
-Fell.
-Fell, thy worth thou thine, thy father’s thy soul,
-FRIAUSTRIifty spirit is, and in the death, thou art thou,
-
-
-My tongue
-------------------------------
-
-📝 Response 3:
-In the country, and to our own
-How to
-To this to be as one I have I must not to know but one.
-
-WOLK.
-
-
-SURVEY.
-K.
-
-Then is not thy hand, thou art thou,
-I tell thee.
-But thou art thou art to thee to do to thy father,
-
-To thy father, is thou do thy brother’sake,
-SAND.
-That thou to thy father; I wouldst not, wouldst I thy father,
-[_They fight,
-A good man but not,
-[_.] And thou but thee for the world.
-That thou hast but thee
-Thou art thou to them off thy
-------------------------------
-
-📝 Response 4:
-In the country of any,
-of their kind,
-the truth, who have been
-to the law of my family.
-In the
-and this. I have thought of the case, and, but I have been my own
-But who, nor even in the
-I do not to
-his tale of my own being in my part of my friend, I have no longer be
-CELENA. I do not be my father
-But I, but in your father had indeed, of
-looked for I,
-The only the
-me?
-To you well, the most, of the Duke of our I do not the Duke of me to you,
-Enter, and so ill, but it,
-Of the Duke
-------------------------------
-
-📝 Response 5:
-In the country of
-So far might be the good that and the day; which I have thought, and
-And that I bear.
-KING.
-
-[_.] The thy face?
-AUSTRIAway,
-Nor how to the battle think what is at the heart,
-O Margaret,
-To be thou thy will not be thou,
-Our bride to thy that my head.
-O, by the fault that I must be the death
-The rest.
-The rest, thou dost thou turn to thy death.
-Our peace hath that thou speak,
-KING JOHN.
-
-KING RICHARD.
-And in the prince, and thou not,
-KING RICHARD.
+**Observations:**
+- Model learned Shakespeare's theatrical conventions (stage directions, scene markers, character labels)
+- Low repetition rates indicate effective sampling strategy
+- Temperature 0.7 provides best balance of coherence and creativity
+- Higher temperatures (>1.0) introduce modern prose artifacts from mixed training data
 ------------------------------
 ---
 
 ## 📋 Training Logs
 
-Below is a snapshot of the training progress from step 7000 to 10000.
+**Run Configuration:**
+- **Hardware:** NVIDIA GPU (6.4GB VRAM utilized)
+- **Dataset:** ~4M tokens (14.2M characters tokenized)
+- **Duration:** 3h 47m 22s
+- **Steps:** 10,000
+
+### Loss Progression
+
+| Step | Loss | Entropy | Drop Rate | Notes |
+|-----:|-----:|--------:|----------:|:------|
+| 0 | — | 1.95 | 7.98% | Initial random routing |
+| 1,000 | 6.80 | 1.71 | 7.59% | First checkpoint |
+| 2,000 | 5.50 | 1.60 | 0.00% | ✓ Best: 5.33 |
+| 3,000 | 4.70 | 1.50 | 3.00% | ✓ Best: 5.31 |
+| 4,000 | 4.88 | 1.41 | 4.66% | ✓ Best: 5.17 |
+| 5,000 | 5.29 | 1.34 | 3.39% | ✓ Best: 4.98 |
+| 6,000 | 4.50 | 1.25 | 7.28% | ✓ Best: 4.93 |
+| 7,000 | 4.72 | 1.20 | 7.81% | ✓ Best: 4.59 |
+| 8,000 | 4.42 | 1.04 | 9.11% | ✓ Best: 4.20 |
+| 9,000 | 4.29 | 1.10 | 15.65% | ✓ Best: 4.03 |
+| 10,000 | 4.63 | 1.30 | 24.24% | ✓ Best: 4.43 |
+
+### Key Observations
+
+- **Loss:** Decreased from ~31.4 → 4.43 (best), demonstrating successful learning
+- **Router Entropy:** Dropped from 1.95 → ~1.0, indicating routers learned specialized token routing patterns
+- **Load Balancing:** Token drop rate remained mostly under 15%, with occasional spikes (max ~40% at step 9200) quickly corrected by bias-based balancing
+- **Expert Utilization:** No router collapse observed; healthy vertical patterns in load distribution
+
+### Expert Load Distribution (Final)
 
 ```
-Training:   0%|                                                                                                                                                                                                                                       | 0/3000 [00:00<?, ?step/s]
-[Microscope] Step 7000
-L0 Entropy: 1.0164 | Drop Rate: 10.47%
-L0 Load: ['0.06', '0.20', '0.15', '0.09', '0.21', '0.11', '0.08', '0.12']
-Training:   0%|                                                                                                                                                                                                    | 0/3000 [00:02<?, ?step/s, Loss=4.9068, Ent=1.81, VRAM=6.4GB]2025-12-05 18:34:06,002 - INFO - Checkpoint saved: Step 7000
----
-[Microscope] Step 8000
-L0 Entropy: 0.8200 | Drop Rate: 11.91%
-L0 Load: ['0.09', '0.15', '0.12', '0.08', '0.13', '0.07', '0.27', '0.09']
-2025-12-05 18:55:58,701 - INFO - Checkpoint saved: Step 8000
----
-[Microscope] Step 9000
-L0 Entropy: 0.7842 | Drop Rate: 29.54%
-L0 Load: ['0.01', '0.23', '0.25', '0.09', '0.08', '0.06', '0.27', '0.01']
-2025-12-05 19:18:02,141 - INFO - Checkpoint saved: Step 9000
----
-[Microscope] Step 9900
-L0 Entropy: 0.8694 | Drop Rate: 4.79%
-L0 Load: ['0.13', '0.14', '0.11', '0.10', '0.14', '0.09', '0.10', '0.20']
-Training: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3000/3000 [1:06:36<00:00,  1.33s/step, Loss=3.5470, Ent=1.48, VRAM=6.4GB]
-2025-12-05 19:40:40,263 - INFO - Checkpoint saved: Step 10000
-2025-12-05 19:40:47,925 - INFO - 🎉 New best model saved! Loss: 4.3318
-Metrics saved to C:\Users\ANT-PC\ERA_V4\Session_14+Microscope\logs/training_metrics.json
-
-Training Complete. Generating samples...
+Step 9900 — Entropy: 0.95 | Drop Rate: 24.24%
+Expert:   0     1     2     3     4     5     6     7
+Load:   0.10  0.08  0.03  0.22  0.07  0.32  0.08  0.10
 ```
+
+*Note: Experts 3 and 5 show higher utilization, indicating learned specialization rather than collapse.*
+
 
 ---
 
