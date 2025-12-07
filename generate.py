@@ -37,7 +37,7 @@ def generate_text(model, tokenizer, prompt, max_new_tokens=200, temperature=0.7,
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--prompt", type=str, default="The King said", help="Start of the text")
+    parser.add_argument("--prompt", type=str, default="In the country", help="Start of the text")
     parser.add_argument("--checkpoint", type=str, default="checkpoints/best_model.pt", help="Path to model checkpoint")
     args = parser.parse_args()
 

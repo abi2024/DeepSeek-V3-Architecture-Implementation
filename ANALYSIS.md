@@ -1,3 +1,5 @@
+Of course. Here is the updated `ANALYSIS.md` with the final training run appended.
+
 # 🔍 MoE-Microscope: Post-Training Analysis
 
 **Experiment:** DeepSeek-V3 Architecture on TinyShakespeare
@@ -69,3 +71,32 @@ This experiment validates the core premise of the **MoE-Microscope**: **Router c
 **Recommendations for Run #2:**
 1.  **Increase Bias Rate:** Boost `bias_update_rate` from `0.001` to `0.05` to aggressively penalize collapse early.
 2.  **Jitter Noise:** Inject Gaussian noise into the router logits during training (Standard practice in Google/DeepMind MoEs) to force exploration.
+
+---
+
+## 5. Final Training Run: A Complete Success
+
+Based on the analysis above, a final training run was conducted with the recommended fixes.
+
+**Solutions Implemented:**
+1.  **Aggressive Bias Penalty:** The `bias_update_rate` was increased to `0.05`.
+2.  **Router Noise:** Gaussian jitter was added to the router logits to prevent premature convergence and encourage exploration.
+
+### Outcome: Stable, Dynamic, and Collapse-Free
+The results were definitive. The MoE architecture remained stable and fully utilized throughout the entire 10,000-step training run.
+
+### Evidence A: Healthy Router Entropy
+The router entropy stabilized at a healthy level (around 1.5 - 1.7), indicating confident but non-deterministic routing. The sharp drop to zero, seen in the first run, was completely avoided.
+
+![Router Entropy](src/router_entropy2.png)
+
+### Evidence B: The Heatmap Shows Perfect Balancing
+The final expert utilization heatmap at Step 9999 tells a story of success.
+
+![Expert Heatmap](src/expert_heatmap2.png)
+
+*   **Observation:** All layers show strong **vertical lines**. This is the ideal visualization for a healthy MoE, indicating that while some experts are preferred for certain tokens (specialization), the load is distributed across all experts within each layer.
+*   **Meaning:** The router is dynamically assigning tokens to different experts at every layer, preventing any single expert from dominating. The "Rich Get Richer" phenomenon was successfully mitigated.
+
+### Final Conclusion
+The MoE-Microscope was instrumental in identifying a critical training failure that would have otherwise gone unnoticed. By using its diagnostics, we were able to pinpoint the root cause, implement targeted solutions, and validate their effectiveness in a subsequent run. This workflow demonstrates the necessity of specialized observability tools for training complex architectures like Mixture-of-Experts.

@@ -8,7 +8,7 @@ env/
 .env
 
 # Project Artifacts (Too large for GitHub)
-checkpoints/
+checkpoints*/
 
 # IDE Settings
 .vscode/

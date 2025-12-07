@@ -1,0 +1,646 @@
+2025-12-05 11:48:14,445 - INFO - Initializing Data Pipeline...
+2025-12-05 11:48:14,445 - INFO - Loading Smollm2 Tokenizer...
+2025-12-05 11:48:15,500 - INFO - Tokenizing 14239546 characters...
+2025-12-05 11:48:21,849 - INFO - Dataset loaded. Total tokens: 3954107
+2025-12-05 11:48:21,868 - INFO - Vocab Size: 49152 | Device: cuda
+2025-12-05 11:48:21,868 - INFO - Constructing DeepSeek Architecture...
+2025-12-05 11:48:26,777 - ERROR - Critical Error: torch.utils.checkpoint: Recomputed values for the following tensors have different metadata than during the forward pass.
+tensor at position 51:
+saved metadata: {'shape': torch.Size([925, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([924, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 52:
+saved metadata: {'shape': torch.Size([925, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([924, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 54:
+saved metadata: {'shape': torch.Size([925, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([924, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 55:
+saved metadata: {'shape': torch.Size([925, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([924, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 56:
+saved metadata: {'shape': torch.Size([925, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([924, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 58:
+saved metadata: {'shape': torch.Size([925, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([924, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 60:
+saved metadata: {'shape': torch.Size([925, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([924, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 61:
+saved metadata: {'shape': torch.Size([925, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([924, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+tensor at position 80:
+saved metadata: {'shape': torch.Size([207, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([209, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 81:
+saved metadata: {'shape': torch.Size([207, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([209, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 83:
+saved metadata: {'shape': torch.Size([207, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([209, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 84:
+saved metadata: {'shape': torch.Size([207, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([209, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 85:
+saved metadata: {'shape': torch.Size([207, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([209, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 87:
+saved metadata: {'shape': torch.Size([207, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([209, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 90:
+saved metadata: {'shape': torch.Size([207, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([209, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 91:
+saved metadata: {'shape': torch.Size([207, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([209, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+tensor at position 95:
+saved metadata: {'shape': torch.Size([725, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([724, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 96:
+saved metadata: {'shape': torch.Size([725, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([724, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 98:
+saved metadata: {'shape': torch.Size([725, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([724, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 99:
+saved metadata: {'shape': torch.Size([725, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([724, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 100:
+saved metadata: {'shape': torch.Size([725, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([724, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 102:
+saved metadata: {'shape': torch.Size([725, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([724, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 105:
+saved metadata: {'shape': torch.Size([725, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([724, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 106:
+saved metadata: {'shape': torch.Size([725, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([724, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+tensor at position 110:
+saved metadata: {'shape': torch.Size([458, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([454, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 111:
+saved metadata: {'shape': torch.Size([458, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([454, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 113:
+saved metadata: {'shape': torch.Size([458, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([454, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 114:
+saved metadata: {'shape': torch.Size([458, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([454, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 115:
+saved metadata: {'shape': torch.Size([458, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([454, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 117:
+saved metadata: {'shape': torch.Size([458, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([454, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 120:
+saved metadata: {'shape': torch.Size([458, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([454, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 121:
+saved metadata: {'shape': torch.Size([458, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([454, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+tensor at position 125:
+saved metadata: {'shape': torch.Size([270, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([273, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 126:
+saved metadata: {'shape': torch.Size([270, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([273, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 128:
+saved metadata: {'shape': torch.Size([270, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([273, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 129:
+saved metadata: {'shape': torch.Size([270, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([273, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 130:
+saved metadata: {'shape': torch.Size([270, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([273, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 132:
+saved metadata: {'shape': torch.Size([270, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([273, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 135:
+saved metadata: {'shape': torch.Size([270, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([273, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 136:
+saved metadata: {'shape': torch.Size([270, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([273, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+tensor at position 140:
+saved metadata: {'shape': torch.Size([207, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([208, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 141:
+saved metadata: {'shape': torch.Size([207, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([208, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 143:
+saved metadata: {'shape': torch.Size([207, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([208, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 144:
+saved metadata: {'shape': torch.Size([207, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([208, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 145:
+saved metadata: {'shape': torch.Size([207, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([208, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 147:
+saved metadata: {'shape': torch.Size([207, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([208, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 150:
+saved metadata: {'shape': torch.Size([207, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([208, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 151:
+saved metadata: {'shape': torch.Size([207, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([208, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+tensor at position 170:
+saved metadata: {'shape': torch.Size([659, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([657, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 171:
+saved metadata: {'shape': torch.Size([659, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([657, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 173:
+saved metadata: {'shape': torch.Size([659, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([657, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 174:
+saved metadata: {'shape': torch.Size([659, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([657, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 175:
+saved metadata: {'shape': torch.Size([659, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([657, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 177:
+saved metadata: {'shape': torch.Size([659, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([657, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 180:
+saved metadata: {'shape': torch.Size([659, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([657, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 181:
+saved metadata: {'shape': torch.Size([659, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([657, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+tensor at position 185:
+saved metadata: {'shape': torch.Size([248, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([250, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 186:
+saved metadata: {'shape': torch.Size([248, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([250, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 188:
+saved metadata: {'shape': torch.Size([248, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([250, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 189:
+saved metadata: {'shape': torch.Size([248, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([250, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 190:
+saved metadata: {'shape': torch.Size([248, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([250, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 192:
+saved metadata: {'shape': torch.Size([248, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([250, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 195:
+saved metadata: {'shape': torch.Size([248, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([250, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 196:
+saved metadata: {'shape': torch.Size([248, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([250, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+tensor at position 200:
+saved metadata: {'shape': torch.Size([312, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([310, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 201:
+saved metadata: {'shape': torch.Size([312, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([310, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 203:
+saved metadata: {'shape': torch.Size([312, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([310, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 204:
+saved metadata: {'shape': torch.Size([312, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([310, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 205:
+saved metadata: {'shape': torch.Size([312, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([310, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 207:
+saved metadata: {'shape': torch.Size([312, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([310, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 210:
+saved metadata: {'shape': torch.Size([312, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([310, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 211:
+saved metadata: {'shape': torch.Size([312, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([310, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+tensor at position 215:
+saved metadata: {'shape': torch.Size([702, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([696, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 216:
+saved metadata: {'shape': torch.Size([702, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([696, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 218:
+saved metadata: {'shape': torch.Size([702, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([696, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 219:
+saved metadata: {'shape': torch.Size([702, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([696, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 220:
+saved metadata: {'shape': torch.Size([702, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([696, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 222:
+saved metadata: {'shape': torch.Size([702, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([696, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 225:
+saved metadata: {'shape': torch.Size([702, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([696, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 226:
+saved metadata: {'shape': torch.Size([702, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([696, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+tensor at position 230:
+saved metadata: {'shape': torch.Size([724, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([723, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 231:
+saved metadata: {'shape': torch.Size([724, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([723, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 233:
+saved metadata: {'shape': torch.Size([724, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([723, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 234:
+saved metadata: {'shape': torch.Size([724, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([723, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 235:
+saved metadata: {'shape': torch.Size([724, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([723, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 237:
+saved metadata: {'shape': torch.Size([724, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([723, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 240:
+saved metadata: {'shape': torch.Size([724, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([723, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 241:
+saved metadata: {'shape': torch.Size([724, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([723, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+tensor at position 245:
+saved metadata: {'shape': torch.Size([484, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([489, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 246:
+saved metadata: {'shape': torch.Size([484, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([489, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 248:
+saved metadata: {'shape': torch.Size([484, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([489, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 249:
+saved metadata: {'shape': torch.Size([484, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([489, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 250:
+saved metadata: {'shape': torch.Size([484, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([489, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 252:
+saved metadata: {'shape': torch.Size([484, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([489, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 255:
+saved metadata: {'shape': torch.Size([484, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([489, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 256:
+saved metadata: {'shape': torch.Size([484, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([489, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+tensor at position 260:
+saved metadata: {'shape': torch.Size([220, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([224, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 261:
+saved metadata: {'shape': torch.Size([220, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([224, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 263:
+saved metadata: {'shape': torch.Size([220, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([224, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 264:
+saved metadata: {'shape': torch.Size([220, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([224, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 265:
+saved metadata: {'shape': torch.Size([220, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([224, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 267:
+saved metadata: {'shape': torch.Size([220, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([224, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 270:
+saved metadata: {'shape': torch.Size([220, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([224, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 271:
+saved metadata: {'shape': torch.Size([220, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([224, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+Traceback (most recent call last):
+  File "C:\Users\ANT-PC\ERA_V4\Session_14+Microscope\train.py", line 59, in main
+    scaler.scale(loss).backward()
+  File "C:\Users\ANT-PC\ERA_V4\Session_14+Microscope\venv\lib\site-packages\torch\_tensor.py", line 626, in backward
+    torch.autograd.backward(
+  File "C:\Users\ANT-PC\ERA_V4\Session_14+Microscope\venv\lib\site-packages\torch\autograd\__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "C:\Users\ANT-PC\ERA_V4\Session_14+Microscope\venv\lib\site-packages\torch\autograd\graph.py", line 823, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+  File "C:\Users\ANT-PC\ERA_V4\Session_14+Microscope\venv\lib\site-packages\torch\utils\checkpoint.py", line 1129, in unpack_hook
+    frame.check_recomputed_tensors_match(gid)
+  File "C:\Users\ANT-PC\ERA_V4\Session_14+Microscope\venv\lib\site-packages\torch\utils\checkpoint.py", line 903, in check_recomputed_tensors_match
+    raise CheckpointError(
+torch.utils.checkpoint.CheckpointError: torch.utils.checkpoint: Recomputed values for the following tensors have different metadata than during the forward pass.
+tensor at position 51:
+saved metadata: {'shape': torch.Size([925, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([924, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 52:
+saved metadata: {'shape': torch.Size([925, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([924, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 54:
+saved metadata: {'shape': torch.Size([925, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([924, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 55:
+saved metadata: {'shape': torch.Size([925, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([924, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 56:
+saved metadata: {'shape': torch.Size([925, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([924, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 58:
+saved metadata: {'shape': torch.Size([925, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([924, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 60:
+saved metadata: {'shape': torch.Size([925, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([924, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 61:
+saved metadata: {'shape': torch.Size([925, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([924, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+tensor at position 80:
+saved metadata: {'shape': torch.Size([207, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([209, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 81:
+saved metadata: {'shape': torch.Size([207, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([209, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 83:
+saved metadata: {'shape': torch.Size([207, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([209, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 84:
+saved metadata: {'shape': torch.Size([207, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([209, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 85:
+saved metadata: {'shape': torch.Size([207, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([209, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 87:
+saved metadata: {'shape': torch.Size([207, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([209, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 90:
+saved metadata: {'shape': torch.Size([207, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([209, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 91:
+saved metadata: {'shape': torch.Size([207, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([209, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+tensor at position 95:
+saved metadata: {'shape': torch.Size([725, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([724, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 96:
+saved metadata: {'shape': torch.Size([725, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([724, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 98:
+saved metadata: {'shape': torch.Size([725, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([724, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 99:
+saved metadata: {'shape': torch.Size([725, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([724, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 100:
+saved metadata: {'shape': torch.Size([725, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([724, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 102:
+saved metadata: {'shape': torch.Size([725, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([724, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 105:
+saved metadata: {'shape': torch.Size([725, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([724, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 106:
+saved metadata: {'shape': torch.Size([725, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([724, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+tensor at position 110:
+saved metadata: {'shape': torch.Size([458, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([454, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 111:
+saved metadata: {'shape': torch.Size([458, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([454, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 113:
+saved metadata: {'shape': torch.Size([458, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([454, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 114:
+saved metadata: {'shape': torch.Size([458, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([454, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 115:
+saved metadata: {'shape': torch.Size([458, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([454, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 117:
+saved metadata: {'shape': torch.Size([458, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([454, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 120:
+saved metadata: {'shape': torch.Size([458, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([454, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 121:
+saved metadata: {'shape': torch.Size([458, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([454, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+tensor at position 125:
+saved metadata: {'shape': torch.Size([270, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([273, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 126:
+saved metadata: {'shape': torch.Size([270, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([273, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 128:
+saved metadata: {'shape': torch.Size([270, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([273, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 129:
+saved metadata: {'shape': torch.Size([270, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([273, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 130:
+saved metadata: {'shape': torch.Size([270, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([273, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 132:
+saved metadata: {'shape': torch.Size([270, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([273, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 135:
+saved metadata: {'shape': torch.Size([270, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([273, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 136:
+saved metadata: {'shape': torch.Size([270, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([273, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+tensor at position 140:
+saved metadata: {'shape': torch.Size([207, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([208, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 141:
+saved metadata: {'shape': torch.Size([207, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([208, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 143:
+saved metadata: {'shape': torch.Size([207, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([208, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 144:
+saved metadata: {'shape': torch.Size([207, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([208, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 145:
+saved metadata: {'shape': torch.Size([207, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([208, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 147:
+saved metadata: {'shape': torch.Size([207, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([208, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 150:
+saved metadata: {'shape': torch.Size([207, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([208, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 151:
+saved metadata: {'shape': torch.Size([207, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([208, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+tensor at position 170:
+saved metadata: {'shape': torch.Size([659, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([657, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 171:
+saved metadata: {'shape': torch.Size([659, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([657, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 173:
+saved metadata: {'shape': torch.Size([659, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([657, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 174:
+saved metadata: {'shape': torch.Size([659, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([657, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 175:
+saved metadata: {'shape': torch.Size([659, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([657, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 177:
+saved metadata: {'shape': torch.Size([659, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([657, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 180:
+saved metadata: {'shape': torch.Size([659, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([657, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 181:
+saved metadata: {'shape': torch.Size([659, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([657, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+tensor at position 185:
+saved metadata: {'shape': torch.Size([248, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([250, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 186:
+saved metadata: {'shape': torch.Size([248, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([250, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 188:
+saved metadata: {'shape': torch.Size([248, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([250, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 189:
+saved metadata: {'shape': torch.Size([248, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([250, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 190:
+saved metadata: {'shape': torch.Size([248, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([250, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 192:
+saved metadata: {'shape': torch.Size([248, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([250, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 195:
+saved metadata: {'shape': torch.Size([248, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([250, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 196:
+saved metadata: {'shape': torch.Size([248, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([250, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+tensor at position 200:
+saved metadata: {'shape': torch.Size([312, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([310, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 201:
+saved metadata: {'shape': torch.Size([312, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([310, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 203:
+saved metadata: {'shape': torch.Size([312, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([310, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 204:
+saved metadata: {'shape': torch.Size([312, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([310, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 205:
+saved metadata: {'shape': torch.Size([312, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([310, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 207:
+saved metadata: {'shape': torch.Size([312, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([310, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 210:
+saved metadata: {'shape': torch.Size([312, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([310, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 211:
+saved metadata: {'shape': torch.Size([312, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([310, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+tensor at position 215:
+saved metadata: {'shape': torch.Size([702, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([696, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 216:
+saved metadata: {'shape': torch.Size([702, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([696, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 218:
+saved metadata: {'shape': torch.Size([702, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([696, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 219:
+saved metadata: {'shape': torch.Size([702, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([696, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 220:
+saved metadata: {'shape': torch.Size([702, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([696, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 222:
+saved metadata: {'shape': torch.Size([702, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([696, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 225:
+saved metadata: {'shape': torch.Size([702, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([696, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 226:
+saved metadata: {'shape': torch.Size([702, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([696, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+tensor at position 230:
+saved metadata: {'shape': torch.Size([724, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([723, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 231:
+saved metadata: {'shape': torch.Size([724, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([723, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 233:
+saved metadata: {'shape': torch.Size([724, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([723, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 234:
+saved metadata: {'shape': torch.Size([724, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([723, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 235:
+saved metadata: {'shape': torch.Size([724, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([723, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 237:
+saved metadata: {'shape': torch.Size([724, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([723, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 240:
+saved metadata: {'shape': torch.Size([724, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([723, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 241:
+saved metadata: {'shape': torch.Size([724, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([723, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+tensor at position 245:
+saved metadata: {'shape': torch.Size([484, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([489, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 246:
+saved metadata: {'shape': torch.Size([484, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([489, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 248:
+saved metadata: {'shape': torch.Size([484, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([489, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 249:
+saved metadata: {'shape': torch.Size([484, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([489, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 250:
+saved metadata: {'shape': torch.Size([484, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([489, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 252:
+saved metadata: {'shape': torch.Size([484, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([489, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 255:
+saved metadata: {'shape': torch.Size([484, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([489, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 256:
+saved metadata: {'shape': torch.Size([484, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([489, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+tensor at position 260:
+saved metadata: {'shape': torch.Size([220, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([224, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 261:
+saved metadata: {'shape': torch.Size([220, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([224, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 263:
+saved metadata: {'shape': torch.Size([220, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([224, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 264:
+saved metadata: {'shape': torch.Size([220, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([224, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 265:
+saved metadata: {'shape': torch.Size([220, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([224, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 267:
+saved metadata: {'shape': torch.Size([220, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([224, 1536]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 270:
+saved metadata: {'shape': torch.Size([220, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([224, 768]), 'dtype': torch.float16, 'device': device(type='cuda', index=0)}
+tensor at position 271:
+saved metadata: {'shape': torch.Size([220, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+recomputed metadata: {'shape': torch.Size([224, 1]), 'dtype': torch.float32, 'device': device(type='cuda', index=0)}
+

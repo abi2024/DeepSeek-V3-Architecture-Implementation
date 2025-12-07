@@ -11,7 +11,7 @@ This document tracks the qualitative performance of the model across iterations.
 **Final Loss:** `nan` (Instability detected at final step, effective loss ~4.1)
 
 ### 🧪 Test Setup
-*   **Prompt:** "The King said"
+*   **Prompt:** "The king said"
 *   **Temperature:** 0.8
 *   **Max Tokens:** 150
 
