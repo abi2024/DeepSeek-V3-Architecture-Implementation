@@ -121,13 +121,12 @@ This will open `http://localhost:8501` in your browser.
 *   **Router Entropy (Layer 0):** ~0.8694
 *   **Token Drop Rate:** Consistently low, with spikes, but averaging under 15-20%.
 
-## 🕵️ Analysis: Observing Router Dynamics
+🕵️ Analysis: Observing Router Dynamics
+The MoE-Microscope provides critical insights not available from the loss curve alone.
 
-The **MoE-Microscope** provides critical insights not available from the loss curve alone.
-
-*   **Router Entropy:** The router entropy shows a steady decrease from an initial random state (~2.0) to a more confident routing (~1.5-1.7 for most of the training), indicating that the routers are learning specialized routes for tokens.
-*   **Expert Utilization:** The heatmap at step 9999 shows that while there isn't a complete collapse to a single expert across all layers, some experts are clearly favored in certain layers (e.g., Exp 7 in L9, Exp 5 in L4). This indicates a degree of specialization. The vertical patterns are more prominent than horizontal ones, which is a healthy sign.
-*   **Token Drop Rate:** The average token drop rate remains at a manageable level, suggesting the load balancing mechanism is effective at preventing catastrophic token loss due to expert buffer overflow.
+Router Entropy: The entropy reveals a clear layer-depth stratification. Early layers (Layer 0) maintain confident, learned routing at ~1.0 throughout training. Middle layers (Layer 5) show gradual learning, decreasing from ~2.0 to ~1.5. Notably, the final layer (Layer 9) remains near-random at ~2.0, suggesting later layers may rely more heavily on the shared expert rather than developing specialized routing—a pattern worth investigating in future experiments.
+Expert Utilization: The heatmap at step 9999 shows Expert 5 as the dominant specialist, particularly in layers L5 and L6 where it handles ~30%+ of tokens. Expert 2 also shows elevated activity across multiple layers. Crucially, vertical patterns remain more prominent than horizontal ones, confirming healthy per-expert specialization rather than catastrophic router collapse.
+Token Drop Rate: The average token drop rate fluctuates between 15-20%, with occasional spikes to ~25%. While higher than ideal, this remains within acceptable bounds and indicates the bias-based load balancing is actively working to redistribute tokens away from overloaded experts.
 
 👉 **[See the full dashboard view and detailed analysis here](ANALYSIS.md)**
 
